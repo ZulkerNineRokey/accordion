@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  
+  <title>Document</title>
+  
+</head>
+<body>
+  <!-- Accordion Start Here -->
+  <div class="accordion">
+        <div class="panel">
+            <div class="label">Clipping Path</div>
+            <div class="acc-content">
+  <div class="clip">
+    <input type="radio" name="popup" id="one" >Complexity 1
+ 
+  <div><img id="one-popup" src="/clip.png" alt="">
+  <img id="two-popup" src="/clip.png" alt="">
+  <img id="three-popup" src="/Copy of clip.png" alt=""></div>
+</div>
+<div class="clip2">
+ <input type="radio" name="popup" id="one" >Complexity 2
+<div><img id="one-popup" src="/clip.png" alt="">
+  <img id="two-popup" src="/clip.png" alt="">
+  <img id="three-popup" src="/Copy of clip.png" alt=""></div>
+</div>
+</div>
+        </div>
+        <div class="panel">
+            <div class="label">Photo Retouching</div>
+            <div class="acc-content">
+  <div class="clip">
+    <input type="radio" name="popup" id="one" >Complexity 1
+ 
+  <div><img id="one-popup" src="/clip.png" alt="">
+  <img id="two-popup" src="/clip.png" alt="">
+  <img id="three-popup" src="/Copy of clip.png" alt=""></div>
+</div>
+<div class="clip2">
+ <input type="radio" name="popup" id="one" >Complexity 2
+<div><img id="one-popup" src="/clip.png" alt="">
+  <img id="two-popup" src="/clip.png" alt="">
+  <img id="three-popup" src="/Copy of clip.png" alt=""></div>
+</div>
+</div>
+        </div>
+        <div class="panel">
+            <div class="label">Image Masking</div>
+            <div class="acc-content">
+  <div class="clip">
+    <input type="radio" name="popup" id="one" >Complexity 1
+ 
+  <div><img id="one-popup" src="/clip.png" alt="">
+  <img id="two-popup" src="/clip.png" alt="">
+  <img id="three-popup" src="/Copy of clip.png" alt=""></div>
+</div>
+<div class="clip2">
+ <input type="radio" name="popup" id="one" >Complexity 2
+<div><img id="one-popup" src="/clip.png" alt="">
+  <img id="two-popup" src="/clip.png" alt="">
+  <img id="three-popup" src="/Copy of clip.png" alt=""></div>
+</div>
+</div>
+        </div>
+    </div>
+    <script>
+        const accordion = document.getElementsByClassName("panel");
+
+        for (i=0; i<accordion.length; i++){
+            accordion[i].addEventListener('click', function(){
+                this.classList.toggle('active');
+               
+            });
+        }
+    </script>
+  <!-- Accordion End Here -->
+
+  <!-- Magnific Popup Start -->
+  
+<!-- Maginific Popup End -->
+ <script src="script.js"></script>
+ 
+</body>
+</html>
